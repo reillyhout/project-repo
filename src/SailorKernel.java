@@ -10,6 +10,7 @@ public interface SailorKernel extends Standard<Sailor> {
      *
      * @param xp
      *            experience points to add
+     *
      * @updates this
      * @ensures experience of this has increased by xp
      */
