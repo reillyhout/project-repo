@@ -1,3 +1,4 @@
+
 import components.standard.Standard;
 
 /**
@@ -10,7 +11,6 @@ public interface SailorKernel extends Standard<Sailor> {
      *
      * @param xp
      *            experience points to add
-     *
      * @updates this
      * @ensures experience of this has increased by xp
      */
@@ -27,28 +27,26 @@ public interface SailorKernel extends Standard<Sailor> {
     void addSaltiness(int amount);
 
     /**
-     * Advances the sailor one year 'fore the mast.
+     * Advances this sailor one year 'fore the mast.
      *
      * @updates this
-     * @ensures yearsForeTheMast of this has decreased by 1
+     * @ensures yearsForeTheMast of this is decreased by 1
      */
     void serveYear();
 
     /**
-     * Changes the rank of this sailor.
+     * Advances this sailor to the next rank.
      *
-     * @param rank
-     *            new rank
      * @updates this
-     * @ensures rank of this = rank
+     * @ensures rank of this is advanced to the next rank
      */
-    void setRank(String rank);
+    void advanceRank();
 
     /**
      * Reports the experience of this sailor.
      *
      * @return current experience
-     * @ensures experience = experience of this
+     * @ensures getExperience = experience of this
      */
     int getExperience();
 
@@ -64,7 +62,7 @@ public interface SailorKernel extends Standard<Sailor> {
      * Reports the saltiness of this sailor.
      *
      * @return current saltiness
-     * @ensures saltiness = saltiness of this
+     * @ensures getSaltiness = saltiness of this
      */
     int getSaltiness();
 
