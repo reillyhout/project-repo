@@ -58,4 +58,30 @@ public abstract class SailorSecondary implements Sailor {
 
         return result;
     }
+
+/**
+     * Reports whether this is equal to the given object.
+     *
+     * @param obj
+     *            the object to compare with this
+     * @return true iff the given object is a Sailor with the same state as this
+     */
+    @Override
+    public boolean equals(Object obj) {
+        boolean areEqual = false;
+
+        if (obj instanceof Sailor) {
+            Sailor other = (Sailor) obj;
+
+            areEqual = this.getRank().equals(other.getRank())
+                    && this.getExperience() == other.getExperience()
+                    && this.getSaltiness() == other.getSaltiness()
+                    && this.getYearsForeTheMast()
+                            == other.getYearsForeTheMast();
+        }
+
+        return areEqual;
+    }
+    //i had absolutely no idea how to do this. i googled it and tried to copy down 
+    //the sailor specific equivelant of what the person on reddit said 
 }

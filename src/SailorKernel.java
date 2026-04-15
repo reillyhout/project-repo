@@ -35,14 +35,12 @@ public interface SailorKernel extends Standard<Sailor> {
     void serveYear();
 
     /**
-     * Changes the rank of this sailor.
+     * Advances this sailor to the next rank.
      *
-     * @param rank
-     *            new rank
      * @updates this
-     * @ensures rank of this = rank
+     * @ensures rank of this is advanced to the next rank
      */
-    void setRank(String rank);
+    void advanceRank();
 
     /**
      * Reports the experience of this sailor.
