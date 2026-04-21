@@ -14,9 +14,16 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+
+
 - Disabled an aspect of the coderunner extension
 - Fixed broken links
 - Disabled AI features globally
+
+## [2026.04.14]
+- added 'SailorSecondary' abstract class in src
+- added secondary method implementations.
+
 
 ## [2024.12.30]
 
@@ -41,6 +48,8 @@ the following form: YYYY.0M.0D.
   project
 
 ### Changed
+- Fixed kernel methods to be able to properly implement secondary methods.
+- Updated Sailor andSailorKernel design on the abstract class branch
 
 - Updated `settings.json` to format document on save using `editor.formatOnSave`
   setting
