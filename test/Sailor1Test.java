@@ -11,8 +11,8 @@ public class Sailor1Test {
     public void testConstructor() {
         Sailor s = new Sailor1();
 
-        assertEquals(0, getExperience());
-        assertEquals(0, getSaltiness());
+        assertEquals(0, s.getExperience());
+        assertEquals(0, s.getSaltiness());
         assertEquals(100, s.getYearsForeTheMast());
         assertEquals("E-1", s.getRank());
     }

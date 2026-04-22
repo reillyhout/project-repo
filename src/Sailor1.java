@@ -1,8 +1,8 @@
 /**
  * Kernel implementation for Sailor.
  *
- * @convention experience >= 0 and saltiness >= 0 and yearsForeTheMast >= 0
- *             and rank is not null
+ * @convention experience >= 0 and saltiness >= 0 and yearsForeTheMast >= 0 and
+ *             rank is not null
  * @correspondence this = (experience, saltiness, yearsForeTheMast, rank)
  *
  * @author Reilly Hout
@@ -136,7 +136,8 @@ public final class Sailor1 extends SailorSecondary {
     public void addExperience(int xp) {
         this.experience = this.experience + xp;
     }
-    @
+
+    @Override
 
     public void addSaltiness(int amount) {
         this.saltiness = this.saltiness + amount;

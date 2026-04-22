@@ -92,6 +92,6 @@ public class SailorTest {
         Sailor s1 = new Sailor1();
         Sailor s2 = new Sailor1();
 
-        assertEquals(false, s1.equals(s2));
+        assertEquals(true, s1.equals(s2));
     }
 }
