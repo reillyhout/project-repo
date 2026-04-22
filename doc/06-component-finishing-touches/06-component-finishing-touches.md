@@ -50,7 +50,6 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -141,7 +140,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +305,29 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I definitely think that I understand software development better on a more broad level.
+Before I definitely felt like I had some glaring gaps in my understanding of how everything fit together
+but I think that this project helped close some of those gaps. I think that being responsisible
+for all aspects of the component brought attention to things that I had never even thought about before
+such as making sure the file name matches the class etc.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+I already answered this a little in the previous question but my gaps were mostly
+about how aspects of software / components fit together, and then like small details
+that get overlooked because we don't really do them on our own in this course.
+I tried to bridge the gaps by going back and looking at old projects to see the
+general structure and set up of things.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I think this project has made me realize that maybe I don't actually hate coding, I
+just hate the OSU Software sequence. This class makes me feel so behind, and uncapable
+of coding, which in turn makes me feel incredibly discouraged and almost spiteful towards it.
+This project helped me realize that I DO enjoy coding, I DO understand how to do it, and I am capable.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +335,41 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+The biggest skill I picked up through this process was how to use Git. That is to say, I'm still
+very bad at it, it confuses me prety much always, but I am better now than I was at the beginning.
+
+I think I also further developed my ability to follow directions (always a work in progress).
+This was also an exercise in spacing out the work I do on a project. I am definitely someone
+who likes to try to do everything in one sitting, and so this was a helpful exercise in taking
+things one step / one week at a time.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+"Used Git and GitHub for branch-based development, pull requests, and version control across a multi-part Java project."
+"Improved project planning and time management by completing a long-term development project in structured phases rather than a single work session."
+"Strengthened ability to follow detailed technical requirements and apply feedback across a multi-stage software project."
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I'm not entirely sure if it affected my career trajectory. I still want to persue the
+same path that I wanted to at the start, but I think it has maybe changed my attitude
+towards it a bit. As I said early, I was definitely feeling discouraged about my
+place in computer science, but I think that this project has given me more confidence going forward.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+I have some coworkers that are already in the field I wish to persue that I reach out
+to with any questions I have or advice I need.
 
 ### Changelog
 
-<!-- TODO: update CHANGELOG then delete this comment -->
+
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -363,16 +384,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2026.04.22
 
 ### Added
 
-- Designed test suite for <!-- insert name of component here --> component
-- Designed two different use cases for <!-- insert name of component here --> component
+- Designed test suite for Sailor component
+- Designed two different use cases for Sailor component
 
 ### Updated
 
-- Changed design to include ...
+- Revised the project structure to better organize files, tests, and documentation.
+-Updated existing component files to align with the final Sailor design.
+-Revised tests and supporting files to reflect the finalized implementation.
 
 ```
 
@@ -384,7 +407,6 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -436,6 +458,5 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9

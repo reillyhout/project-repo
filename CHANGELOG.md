@@ -6,12 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## 2026.03.10
-
-### Added
-
-- Designed kernel and enhanced interfaces for Sailor component.
-
 ## [Unreleased]
 
 
@@ -20,10 +14,51 @@ the following form: YYYY.0M.0D.
 - Fixed broken links
 - Disabled AI features globally
 
-## [2026.04.14]
-- added 'SailorSecondary' abstract class in src
-- added secondary method implementations.
+## [2026.04.22]
 
+### Added
+
+- Designed a JUnit test suite for the Sailor component
+- Added two different use-case demos for the Sailor component
+
+### Changed
+
+- Revised the project structure to better organize files, tests, and
+  documentation
+- Updated existing component files to align with the final Sailor design
+- Revised tests and supporting files to reflect the finalized implementation
+
+## [2026.04.15]
+
+### Added
+
+- Added `Sailor1` kernel implementation in `src`
+- Added convention and correspondence for the `Sailor1` representation
+- Added constructor and `Standard` method implementations for `Sailor1`
+
+### Changed
+
+- Updated `SailorKernel` to use `advanceRank` in the kernel design
+- Updated the Sailor design on the `kernel-implementation` branch to support
+  the kernel implementation
+
+## [2026.04.14]
+
+### Added
+
+- Added `SailorSecondary` abstract class in `src`
+- Added secondary method implementations for the Sailor component
+
+### Changed
+
+- Fixed kernel methods so secondary methods could be implemented properly
+- Updated `Sailor` and `SailorKernel` design on the abstract-class branch
+
+## [2026.03.10]
+
+### Added
+
+- Designed kernel and enhanced interfaces for the Sailor component
 
 ## [2024.12.30]
 

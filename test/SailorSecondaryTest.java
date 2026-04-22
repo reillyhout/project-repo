@@ -6,7 +6,7 @@ import org.junit.Test;
  * JUnit tests for secondary methods of {@code Sailor}.
  */
 
-public class SailorTest {
+public class SailorSecondaryTest {
 
     @Test
     public void testComplain() {
